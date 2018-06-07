@@ -1,0 +1,18 @@
+
+I just wanted to do a brief write-up of where I got up to so far with installing Linux on my machine. It was something I had wanted to try for a while. I think I actually booted from a thumb drive once when I was 18, but I'd never made a serious install.
+
+Decided to go with Fedora since that's what Linus uses. Unhappy with the connotations of the name but it turns out the 'Red Cap' from which the name is derived is actually not a fedora but a cap worn at Lacrosse games (specfically: Carnegie Mellon's). So, suddenly it feels a bit more Chad and I feel less bad about it.
+
+> ![](https://i.imgur.com/8sNlTeZ.png)
+> 
+> *[From the Red Hat corporate history page](https://brand.redhat.com/foundations/history/)*
+
+Installation got off to a rocky start. In the end, I found a thumb drive and at least verified that I could install Fedora somewhere and run it on my MacBook. However, I ran into issues when I used Red Hat's MediaWriter and application and allowed it to wipe the partition table on my 2TB External Hard Drive. Had to run TestDisk on my PC (good app btw, and nice documentation). This restored the partition table and wrote the drive back into existence. However, my PC was still reading it as a 'Raw' drive and not accessing it, though it said an E: drive was there. I ran CHKDSK on the drive and this seemed to patch things up. All data accesssible again, although some relationships might have gotten broken in Apps like Steam - we'll see.
+
+There isn't much else to say so far, other than I dodged a bullet in having to buy another drive in order to shuttle the files (which were still readable in RAW state, within the TestDisk app) off to a drive, reformat, and shuttle them back over again. 
+
+![
+](https://i.imgur.com/44YCxgp.gif)
+
+So, now to actually install Linux...
+
